@@ -19,6 +19,7 @@ if you want to change your local env file to test multiple environment, you can 
 just download this under env_files folder
 you will have file structures like this:
 
+```text
 L env_files
   L local-env-tool
     L options
@@ -28,6 +29,7 @@ L env_files
     L localEnvLoader.js
     L use-local.sh
     L template
+```
 
 In above structure, dev, qa, and template are the env file that you have.
 template file is what will be copied in case the environment that you selected does not exist yet.
